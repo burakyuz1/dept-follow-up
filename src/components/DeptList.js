@@ -16,7 +16,7 @@ function DeptList({ depts, setDepts }) {
                     />
                 ))}
             </ul>
-<hr />
+            <hr />
             <h2>COMPLETED DEPTS</h2>
             <ul className='list-group'>
                 {depts.map((dept, index) => (
@@ -29,8 +29,6 @@ function DeptList({ depts, setDepts }) {
                     />
                 ))}
             </ul>
-
-            
         </>
     )
 }
